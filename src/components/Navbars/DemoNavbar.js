@@ -33,7 +33,7 @@ import {
   Col,
 } from "reactstrap";
 
-import { animateScroll as scroll } from "react-scroll";
+// import { animateScroll as scroll } from "react-scroll";
 
 
 class DemoNavbar extends React.Component {
@@ -67,19 +67,19 @@ class DemoNavbar extends React.Component {
   }
 
   onClick=(event) => {
-    if (!event?.target?.href && event.target.href.indexOf('#') === -1) {
-      return;
-    }
-    // TODO: temporary solution - find a permanent solution for this issue
-    if (window.location.pathname === '/') {
-      const targetDiv = event.target.href.split('#')[1];
-      event.preventDefault();
-      var x = this.getOffset(document.getElementById(targetDiv)); 
-      scroll.scrollTo(x);
-      window.location = event.target.href;
-      // auto close navbar if its not collapsed
-      document.getElementById('navbar_global').click();
-    } 
+    // if (!event?.target?.href && event.target.href.indexOf('#') === -1) {
+    //   return;
+    // }
+    // // TODO: temporary solution - find a permanent solution for this issue
+    // if (window.location.pathname === '/') {
+    //   const targetDiv = event.target.href.split('#')[1];
+    //   event.preventDefault();
+    //   var x = this.getOffset(document.getElementById(targetDiv)); 
+    //   scroll.scrollTo(x);
+    //   window.location = event.target.href;
+    //   // auto close navbar if its not collapsed
+    //   document.getElementById('navbar_global').click();
+    // } 
   }
 
   render() {
@@ -135,7 +135,7 @@ class DemoNavbar extends React.Component {
                       aria-haspopup={true}
                       className="nav-link-icon"
                       data-toggle="dropdown"
-                      href="/#contact-us" 
+                      // href="/#contact-us" 
                       onClick={this.onClick}
                       role="button"
                       >
@@ -149,7 +149,7 @@ class DemoNavbar extends React.Component {
                       className="nav-link-icon" 
                       color="primary"
                       data-toggle="dropdown"
-                      href="/license"
+                      href="/#/license"
                       role="button"
                       >
                         Get License
