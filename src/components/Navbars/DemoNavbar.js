@@ -135,7 +135,7 @@ class DemoNavbar extends React.Component {
                       aria-haspopup={true}
                       className="nav-link-icon"
                       data-toggle="dropdown"
-                      // href="/#contact-us" 
+                      href="/#/#contact-us" 
                       onClick={this.onClick}
                       role="button"
                       >
