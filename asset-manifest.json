@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f8da69d.chunk.css",
-    "main.js": "/static/js/main.3a7dd87b.chunk.js",
-    "main.js.map": "/static/js/main.3a7dd87b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d7651f20.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d7651f20.js.map",
-    "static/js/2.8514953a.chunk.js": "/static/js/2.8514953a.chunk.js",
-    "static/js/2.8514953a.chunk.js.map": "/static/js/2.8514953a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.96aa3cd5a5d53606044483757e59c395.js": "/precache-manifest.96aa3cd5a5d53606044483757e59c395.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.9f8da69d.chunk.css.map": "/static/css/main.9f8da69d.chunk.css.map",
-    "static/js/2.8514953a.chunk.js.LICENSE.txt": "/static/js/2.8514953a.chunk.js.LICENSE.txt",
-    "static/js/main.3a7dd87b.chunk.js.LICENSE.txt": "/static/js/main.3a7dd87b.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/nucleo.css": "/static/media/nucleo-icons.f82ec6ba.ttf",
-    "static/media/remind-app-icon.png": "/static/media/remind-app-icon.da8b2e4c.png"
+    "main.css": "/website/static/css/main.0da55540.chunk.css",
+    "main.js": "/website/static/js/main.508a34e8.chunk.js",
+    "main.js.map": "/website/static/js/main.508a34e8.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.0deb8e04.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.0deb8e04.js.map",
+    "static/js/2.8514953a.chunk.js": "/website/static/js/2.8514953a.chunk.js",
+    "static/js/2.8514953a.chunk.js.map": "/website/static/js/2.8514953a.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.51c695b03d3e0b077c0c4f1f9db679ac.js": "/website/precache-manifest.51c695b03d3e0b077c0c4f1f9db679ac.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/main.0da55540.chunk.css.map": "/website/static/css/main.0da55540.chunk.css.map",
+    "static/js/2.8514953a.chunk.js.LICENSE.txt": "/website/static/js/2.8514953a.chunk.js.LICENSE.txt",
+    "static/js/main.508a34e8.chunk.js.LICENSE.txt": "/website/static/js/main.508a34e8.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/website/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/nucleo.css": "/website/static/media/nucleo-icons.f82ec6ba.ttf",
+    "static/media/remind-app-icon.png": "/website/static/media/remind-app-icon.da8b2e4c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d7651f20.js",
+    "static/js/runtime-main.0deb8e04.js",
     "static/js/2.8514953a.chunk.js",
-    "static/css/main.9f8da69d.chunk.css",
-    "static/js/main.3a7dd87b.chunk.js"
+    "static/css/main.0da55540.chunk.css",
+    "static/js/main.508a34e8.chunk.js"
   ]
 }
