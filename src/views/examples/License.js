@@ -139,8 +139,10 @@ class License extends React.Component {
                         <small className="text-muted">for FREE</small>
                       </span>
                       {/* <h1 className="display-4">Get Premium License</h1>*/}
-                      <div className="text-center text-muted mb-4">
+                      <div className="text-muted mb-4">
                         <small>Please fill the following details & we'll mail your License to the provided Email</small>
+                        <br/>
+                        <small className="text-center">Checkout <a href="https://add-reminders.gitbook.io/docs/guides/premium-license">the following guide</a> to learn more about Premium License setup</small>
                       </div> 
                       <Form role="form" onSubmit={this.handleSubmit}>
                         <FormGroup className={`mb-3 ${ this.validateEmail(this.state.email) ? 'has-success' : this.state.email !== undefined && 'has-danger' }`}>
