@@ -75,7 +75,7 @@ class License extends React.Component {
     }
 
     this.setState({ sendingLicenseRequest: true });
-    axios.post('https://adoring-nightingale-054469.netlify.app/.netlify/functions/license', {
+    axios.post('https://reliable-yeot-b60f66.netlify.app/.netlify/functions/license', {
       email,
       workspaceAddress
     }).then(function (response) {
@@ -101,7 +101,7 @@ class License extends React.Component {
   }
 
   validateEmail(mail) {
-    if (/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(mail || '')) {
+    if (/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,})+$/.test(mail || '')) {
       return true;
     }
     return false;

@@ -81,7 +81,7 @@ class Landing extends React.Component {
     }
 
     this.setState({ sendingContactUsMessage: true });
-    axios.post('https://adoring-nightingale-054469.netlify.app/.netlify/functions/contact', {
+    axios.post('https://reliable-yeot-b60f66.netlify.app/.netlify/functions/contact', {
       email,
       name,
       message,
@@ -105,7 +105,7 @@ class Landing extends React.Component {
   }
 
   validateEmail(mail) {
-    if (/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(mail || '')) {
+    if (/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,})+$/.test(mail || '')) {
       return true;
     }
     return false;
