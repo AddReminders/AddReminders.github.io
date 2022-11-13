@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.9f8da69d.chunk.css",
-    "main.js": "/static/js/main.60504e11.chunk.js",
-    "main.js.map": "/static/js/main.60504e11.chunk.js.map",
+    "main.js": "/static/js/main.83aa145e.chunk.js",
+    "main.js.map": "/static/js/main.83aa145e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d7651f20.js",
     "runtime-main.js.map": "/static/js/runtime-main.d7651f20.js.map",
     "static/js/2.83042e90.chunk.js": "/static/js/2.83042e90.chunk.js",
     "static/js/2.83042e90.chunk.js.map": "/static/js/2.83042e90.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ab7ed80c248fd051e1b68dcc54d4efb8.js": "/precache-manifest.ab7ed80c248fd051e1b68dcc54d4efb8.js",
+    "precache-manifest.ce177e1773354f3a094748394927ff89.js": "/precache-manifest.ce177e1773354f3a094748394927ff89.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9f8da69d.chunk.css.map": "/static/css/main.9f8da69d.chunk.css.map",
     "static/js/2.83042e90.chunk.js.LICENSE.txt": "/static/js/2.83042e90.chunk.js.LICENSE.txt",
-    "static/js/main.60504e11.chunk.js.LICENSE.txt": "/static/js/main.60504e11.chunk.js.LICENSE.txt",
+    "static/js/main.83aa145e.chunk.js.LICENSE.txt": "/static/js/main.83aa145e.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/nucleo.css": "/static/media/nucleo-icons.f82ec6ba.ttf",
     "static/media/remind-app-icon.png": "/static/media/remind-app-icon.da8b2e4c.png"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.d7651f20.js",
     "static/js/2.83042e90.chunk.js",
     "static/css/main.9f8da69d.chunk.css",
-    "static/js/main.60504e11.chunk.js"
+    "static/js/main.83aa145e.chunk.js"
   ]
 }
