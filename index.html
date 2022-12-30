@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website Change Notice</title>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="5;url=https://appsforchat.com/reminder-app">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #eee;
+    }
+    h1 {
+      color: #ffa500;
+      font-size: 2.5em;
+      margin: 40px 0 20px;
+    }
+    p {
+      margin: 20px 0;
+      font-size: 1.2em;
+    }
+    a {
+      color: #0000ff;
+      text-decoration: none;
+      border-bottom: 1px solid #0000ff;
+    }
+    a:hover {
+      border-color: #ffa500;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .emoji {
+      font-size: 2em;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚨 Notice: Website Change 🚨</h1>
+    <p>This website has changed from <code>https://addreminders.github.io</code> to <code>https://appsforchat.com/reminder-app</code>.</p>
+    <p>
+      You will be redirected to the new website in <span class="emoji">⏲️</span>
+      <span id="countdown">5</span>
+      <span class="emoji">⏲️</span> seconds.
+    </p>
+    <p>
+      If you are not automatically redirected, please click
+      <a href="https://appsforchat.com/reminder-app">here</a>
+      to visit the new website.
+    </p>
+  </div>
+  <script>
+    const countdown = document.getElementById("countdown");
+    let count = 5;
+    setInterval(() => {
+      countdown.innerText = count;
+      if (count === 0) {
+        window.location.href = "https://appsforchat.com/reminder-app";
+      }
+      count--;
+    }, 1000);
+  </script>
+</body>
+</html>
